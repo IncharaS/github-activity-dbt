@@ -1,0 +1,28 @@
+version: 2
+models:
+  - name: int_cleaned_events
+    description: "Intermediate model for cleaning and filtering RAW_EVENTS data."
+    columns:
+      - name: actor_event_count
+        tests:
+          - not_null
+  
+  - name: int_bot_events
+    description: "Counts bot and non-bot events based on actor_display_login."
+    columns:
+      - name: actor_display_login
+        description: "The display name of the actor, including [bot] for bots."
+        tests:
+          - not_null
+      - name: type
+        description: "The type of the event, e.g., PullRequestEvent or PushEvent."
+        tests:
+          - not_null
+      - name: bot_event_count
+        description: "The number of events created by bots."
+        tests:
+          - not_null
+      - name: non_bot_event_count
+        description: "The number of events created by non-bots."
+        tests:
+          - not_null

@@ -1,0 +1,14 @@
+version: 2
+models:
+  - name: fact_event_summary
+    description: "Fact table summarizing events by actor."
+    columns:
+      - name: actor_display_login
+        description: "The display name of the actor."
+        tests:
+          - unique
+          - not_null
+      - name: total_events
+        description: "The total number of events for the actor."
+        tests:
+          - not_null

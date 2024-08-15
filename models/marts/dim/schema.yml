@@ -1,0 +1,11 @@
+version: 2
+models:
+  - name: dim_event_types
+    description: "Dimension table for event types and categories."
+    columns:
+      - name: event_type
+        tests:
+          - not_null
+      - name: event_category
+        tests:
+          - not_null
