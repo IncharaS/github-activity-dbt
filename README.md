@@ -1,4 +1,4 @@
-###### **Automated GitHub Activity Analytics Pipeline**
+#### **Automated GitHub Activity Analytics Pipeline**
 
 ### **Project Description**:
 
