@@ -26,6 +26,7 @@ The **Automated GitHub Activity Analytics Pipeline** is a robust data processing
    - The dashboards have been **published on Tableau Public**, allowing for real-time sharing and access to the visualized insights.
 
 ---
+![image](https://github.com/user-attachments/assets/b49dc9eb-72c5-4260-94d4-d0df020a79fc)
 
 ### **Tools and Technologies Used**:
 
