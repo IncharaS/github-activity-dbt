@@ -50,6 +50,9 @@ The **Automated GitHub Activity Analytics Pipeline** is a robust data processing
 4. **DBT** connects to Snowflake, performs complex transformations, and writes the final, clean datasets into a **Snowflake database**.
 5. **Tableau** connects to Snowflake, visualizes the data, and generates interactive dashboards for insights and reporting. These dashboards are **published on Tableau Public** for sharing and real-time access.
 
+   ![image](https://github.com/user-attachments/assets/e34f7c0d-3323-4a9c-8fe8-a6b3cde341c3)
+
+
 ---
 
 ### **Conclusion**:
